@@ -125,9 +125,9 @@ $default-float: left;
 
 // Media Queries
 
-// $small-screen: 768px;
-// $medium-screen: 1280px;
-// $large-screen: 1440px;
+ $small-screen: 768px;
+ $medium-screen: 1280px;
+ $large-screen: 1440px;
 
 // $screen: "only screen";
 // $small: "only screen and (min-width: #{$small-screen})";
@@ -1285,10 +1285,10 @@ $topbar-bg-color: #fff;
 
  $topbar-link-color: #111;
  $topbar-link-color-hover: #fff;
-// $topbar-link-color-active: #fff;
+ $topbar-link-color-active: #fff;
 // $topbar-link-weight: bold;
 // $topbar-link-font-size: em-calc(13);
- //$topbar-link-hover-lightness: -30%; // Darken by 30%
+ $topbar-link-hover-lightness: -30%; // Darken by 30%
 //$topbar-link-bg-hover: darken($topbar-bg-color, 3%);
 // $topbar-link-bg-active: darken($topbar-bg-color, 3%);
 
@@ -1305,7 +1305,7 @@ $topbar-bg-color: #fff;
 // $topbar-menu-link-weight: bold;
 // $topbar-menu-link-color: #fff;
 // $topbar-menu-icon-color: #fff;
-// $topbar-menu-link-color-toggled: #888;
+ $topbar-menu-link-color-toggled: #888;
 // $topbar-menu-icon-color-toggled: #888;
 
 // Transitions and breakpoint styles

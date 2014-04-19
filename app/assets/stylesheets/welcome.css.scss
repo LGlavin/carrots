@@ -1,12 +1,12 @@
 body{
-   color: #fff;
+  color: #fff;
   font-family:'Roboto Condensed', sans-serif;
   font-size: 18px;
 }
 
 
 #logo h1{
-  margin-left:45px;
+  margin-left:35px;
   color: #fff;
   font-family:'Roboto Condensed', sans-serif;
   font-size: 28px;
@@ -20,26 +20,38 @@ body{
  
 
 }
+
 .space{
   padding-bottom:5px;
 }
+
 #main-img{
   margin-left:480px;
   margin-top: 220px;
   background: image-url('juice3_clear.png')no-repeat;
   height: 300px;
   width:50%;
+}
 
- 
-  }
 
 .left{
  margin-left:15px;
-  color:black;
+  // color:black;
 }
 
 .top-bar-section ul{
-  background:white;
+  // background:white;
   font-family:'Roboto Condensed', sans-serif;
   font-size: 22px;
 }
+
+// #juice-img{
+//   background: image-url('jar.jpg')no-repeat;
+//   height:300px;
+//   width:100%;
+//   margin-top:120px;
+//   margin-left:480px;
+//   overflow:hidden;
+// }
+
+

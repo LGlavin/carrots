@@ -42,6 +42,7 @@ GEM
     foundation_rails_helper (0.4)
       actionpack (>= 3.0)
       railties (>= 3.0)
+    high_voltage (2.1.0)
     hike (1.2.3)
     i18n (0.6.9)
     jbuilder (1.5.3)
@@ -123,6 +124,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   foundation-icons-sass-rails
   foundation_rails_helper
+  high_voltage (~> 2.1.0)
   jbuilder (~> 1.2)
   jquery-rails
   pg
