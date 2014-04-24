@@ -29,27 +29,16 @@
    <section class="top-bar-section">
    <!--  Right Nav Section -->
       <ul class="right">
-    
-    <!--  <li class="has-form nav-bar-coloring">
-          <%= form_tag root_path, method: 'get' do %>
-            <div class="row collapse">
-              <div class="small-8 columns">
-                <%= text_field_tag :search, params[:search], class: "span2" %>
-              </div>
-              <div class="small-4 columns">
-                <%= submit_tag "Search", class: "button" %>
-              </div>
-            </div> 
-          <% end %>
-        </li> 
- -->
-<li><%= link_to ' log in', root_path, class: "icon-signin" %></li>
+   
+        <li class="divider"></li>
 
-
-
-<li><%= link_to ' sign up', root_path, class: "icon-user" %></li>
+        <% if user_signed_in? %>
+          <%= render partial: 'layouts/header_nav_sign_in' %>
+        <% else %>
+          <%= render partial: 'layouts/header_nav_sign_out' %>
+        <% end %>
 
       </ul>
     </section>
   </nav>
-</div>
+</div> 
