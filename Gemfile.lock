@@ -13,7 +13,7 @@ GEM
     active_utils (2.0.2)
       activesupport (>= 2.3.11)
       i18n
-    activemerchant (1.42.9)
+    activemerchant (1.43.0)
       active_utils (~> 2.0, >= 2.0.1)
       activesupport (>= 2.3.14, < 5.0.0)
       builder (>= 2.1.2, < 4.0.0)
@@ -38,8 +38,14 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.2)
     bcrypt (3.1.7)
+    better_errors (1.1.0)
+      coderay (>= 1.0.0)
+      erubis (>= 2.6.6)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
     builder (3.1.4)
     cancan (1.6.10)
+    coderay (1.1.0)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -50,6 +56,7 @@ GEM
     countries (0.9.3)
       currencies (~> 0.4.2)
     currencies (0.4.2)
+    debug_inspector (0.0.2)
     devise (3.2.4)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -187,6 +194,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  better_errors
+  binding_of_caller
   cancan
   coffee-rails (~> 4.0.0)
   devise

@@ -11,7 +11,8 @@ gem 'devise'
 gem 'cancan'
 gem 'rails_admin'
 gem "piggybak"
-# Use SCSS for stylesheets
+gem 'better_errors'
+ gem 'binding_of_caller'
 gem 'sass-rails', '~> 4.0.2'
 gem 'rails_12factor'
 # Use Uglifier as compressor for JavaScript assets
