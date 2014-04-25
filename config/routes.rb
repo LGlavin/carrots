@@ -1,4 +1,9 @@
 JarBasic::Application.routes.draw do
+
+  resources :products
+
+  mount Piggybak::Engine => '/checkout', :as => 'piggybak'
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   devise_for :admins
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.

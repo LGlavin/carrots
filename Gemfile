@@ -8,6 +8,9 @@ gem 'rails', '4.0.4'
 gem 'pg'
 gem 'meta-tags'
 gem 'devise'
+gem 'cancan'
+gem 'rails_admin'
+gem "piggybak"
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 gem 'rails_12factor'
