@@ -52,7 +52,7 @@ h1#title a{
 
 .left{
  margin-left:15px;
-  // color:black;
+color:black;
 }
 
 .top-bar-section ul{
@@ -62,7 +62,7 @@ h1#title a{
 }
 
 .sign_form{
-   background-color:#fff;
+   // background-color:#fff;
  
 }
 .field, .form-group {
@@ -73,7 +73,7 @@ h1#title a{
 h2{
   text-align:center;
   padding-top:25px;
-   color: #2c3e50;}
+   color: #3498db;}
 
 
 // #juice-img{
@@ -105,12 +105,14 @@ footer{
   
 }
 .btn-primary{
-  background-color:#2c3e50;
+  background-color:#3498db;
   color:white;
   height:30px;
   font-size:16px;
 }
-
+.success button{
+  background-color:#3498db;
+}
 .input-append{
   width:200px;
 
@@ -119,4 +121,8 @@ footer{
 .actions{
   padding-left:325px;
   padding-top:25px;
+}
+ul, .alert-danger{
+  margin:80px;
+  color:#2980b9;
 }
