@@ -10,7 +10,6 @@ gem 'meta-tags'
 gem 'devise'
 gem 'cancan'
 gem 'rails_admin'
-gem "piggybak"
 gem 'better_errors'
  gem 'binding_of_caller'
 gem 'sass-rails', '~> 4.0.2'
