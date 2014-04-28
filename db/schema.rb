@@ -17,6 +17,8 @@ ActiveRecord::Schema.define(version: 20140425155103) do
   enable_extension "plpgsql"
 
   create_table "admins", force: true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
     t.string   "reset_password_token"
@@ -43,6 +45,8 @@ ActiveRecord::Schema.define(version: 20140425155103) do
   end
 
   create_table "users", force: true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
     t.string   "reset_password_token"
