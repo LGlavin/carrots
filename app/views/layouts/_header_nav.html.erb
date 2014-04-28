@@ -12,17 +12,17 @@
    <!--  Left Nav Section -->
       <ul class="left">
        
-    <li><%= link_to ' about', page_path('about') %></li>
+    <li><%= link_to ' About', page_path('about') %></li>
 
 
 
-<li><%= link_to ' juice', page_path('juice') %></li>
+<li><%= link_to ' Juice', page_path('juice') %></li>
 
 <li><%= link_to 'cleanse', page_path('cleanse') %></li>
 
-<li><%= link_to 'order', page_path('order') %></li>
-<li><%= link_to 'visit us', page_path('visit us') %></li>
-<li><%= link_to 'contact', page_path('contact') %></li>
+<li><%= link_to 'Order', page_path('order') %></li>
+<li><%= link_to 'Visit Us', page_path('visit us') %></li>
+<li><%= link_to 'Contact', page_path('contact') %></li>
 </ul>
 </section>
 
@@ -30,7 +30,6 @@
    <!--  Right Nav Section -->
       <ul class="right">
    
-        <li class="divider"></li>
 
         <% if user_signed_in? %>
           <%= render partial: 'layouts/header_nav_sign_in' %>
