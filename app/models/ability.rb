@@ -3,10 +3,6 @@ class Ability
   def initialize(user)
     if user && admin # method for user has administrative rights
       can :access, :rails_admin
-      can :manage, Piggybak.config.manage_classes.map(&:constantize)
-Piggybak.config.extra_abilities.each do |extra_ability|
-  can extra_ability[:abilities], extra_ability[:class_name].constantize
-end
   
   end
 end

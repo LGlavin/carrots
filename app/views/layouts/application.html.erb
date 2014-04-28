@@ -24,14 +24,22 @@
 
   <body>
    <%= render 'layouts/header_nav' %>
-    
- <div id="row">
-    <%= yield %>
-</div>
-     
-     <%= render 'layouts/footer' %>
 
-      
+    <% if notice %>
+  <p class="alert alert-success"><%= notice %></p>
+<% end %>
+<% if alert %>
+  <p class="alert alert-danger"><%= alert %></p>
+<% end %>
+    <%= yield %>
+
+     
+
+
+      <footer class="footer">
+      <p class="made">&copy; 2014 daily jar. All Rights Reserved.</p>
+    </footer>
+  
     <%= javascript_include_tag "application" %>          
   
  
