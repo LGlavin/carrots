@@ -10,8 +10,7 @@ Bundler.require(*Rails.groups)
 module JarBasic
   class Application < Rails::Application
      config.assets.precompile += [
-      'welcome.css.scss'
-    ]
+      'welcome.css.scss']
     config.assets.precompile += %w( vendor/custom.modernizr )
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
