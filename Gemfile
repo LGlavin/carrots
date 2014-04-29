@@ -18,7 +18,7 @@ gem 'zurb-foundation'
 gem 'foundation_rails_helper'
 gem 'foundation-icons-sass-rails'
 gem 'jquery-rails'
-
+gem 'activemerchant'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 gem 'high_voltage', '~> 2.1.0'
